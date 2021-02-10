@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    * {
+	box-sizing: border-box;
+    }
     body {
 	margin: auto;
 	color: #2e2e2e;
@@ -19,22 +22,20 @@
     .header h1 {
 	font-size: 40px;
     }
-    * {
-	box-sizing: boarder-box;
-    }
     .row {
 	display: flex;
 	flex-wrap: wrap;
     }
-    .main {
-	flex: 84%;
+    .side {
+	flex: 20%;
 	padding: 10px;
 	background-color: white;
     }
-    .side {
-	flex: 16%;
+    .main {
+	flex: 80%;
+	padding: 10px;
 	background-color: white;
-    }	
+    }
     .img {
 	width: 16%;
 	align: center;
@@ -47,6 +48,7 @@
     <h1> Project Title Here </h1>
     <p> Renae Tamura - CS152 Project Proposal <p>
   </div>
+  
   <div class="row">
     <div class="side">
       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCNwVAVZNNUdO8zz2J6IkgoCQ-wvALd6M89Q&usqp=CAU" alt="math problem meme">
